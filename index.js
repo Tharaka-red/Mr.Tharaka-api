@@ -17,3 +17,4 @@ app.get('/download/ytmp3', async (req, res) => {
     res.json({ status: false, message: "Error downloading", error: err.message });
   }
 });
+app.listen(3000, () => console.log('MR.THARAKA API is running on port 3000'));
